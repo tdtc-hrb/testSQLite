@@ -1,0 +1,37 @@
+# Test SQLite(v1.0.112)
+windows XP 只能支持到.net 4.0.3.
+
+
+
+简介：
+
+  本示例使用SQLite的密码、外键功能。以及关闭临时文件（journal mode=Off）。
+
+  通过查询和插入（修改、删除）来演示C#使用SQLite的实用性。
+
+
+# 工程设置
+
+## 组件
+- [For Vs 2012](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx45-setup-bundle-x86-2012-1.0.112.0.exe)
+
+- [Precompiled Binaries](https://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx45-binary-bundle-Win32-2012-1.0.112.0.zip)
+
+
+## 引用
+> References -> Add Reference
+
+![vs2012 ui](https://gitee.com/xiaobin80/cnblogs/raw/master/images/20200402114539433.png)
+
+
+选择“System.Data.SQLite Core”
+![vs2012 ui](https://gitee.com/xiaobin80/cnblogs/raw/master/images/20200402114730227.png)
+
+
+## 完整的窗体
+![program ui](https://gitee.com/xiaobin80/cnblogs/raw/master/images/20200327103150877.png)
+
+
+# 参考文档
+- [SQLite.NET.chm](http://system.data.sqlite.org/index.html/finfo?name=Doc/SQLite.NET.chm)
+- [Install the .NET Framework on Windows XP and Windows Server 2003](https://docs.microsoft.com/zh-cn/previous-versions/dotnet/framework/install/on-windows-xp#:~:text=%E5%8F%AF%E4%BB%A5%E5%9C%A8%20Windows%20XP%20%E4%B8%8A%E5%AE%89%E8%A3%85%20.NET%20Framework%203.5%20%E3%80%82.,applications%20built%20for%20.NET%20Framework%201.0%20through%203.5.)
