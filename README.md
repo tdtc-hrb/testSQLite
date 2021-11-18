@@ -31,6 +31,13 @@ windows XP 只能支持到.net 4.0.3.
 ## 完整的窗体
 ![program ui](https://gitee.com/xiaobin80/cnblogs/raw/master/images/20200327103150877.png)
 
+# Deploy
+1. 新建tdtc_scale.db    
+2. 点击+password    
+3. 点击Gen Table    
+4. 输入insert语句，并点击exec    
+5. 输入select语句，并点击search    
+
 
 # 参考文档
 - [SQLite.NET.chm](http://system.data.sqlite.org/index.html/finfo?name=Doc/SQLite.NET.chm)
