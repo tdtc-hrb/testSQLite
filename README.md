@@ -14,8 +14,10 @@ windows XP 只能支持到.net 4.0.3.
 
 ## 组件
 - [For Vs 2012](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx45-setup-bundle-x86-2012-1.0.112.0.exe)
+- [For Vs 2015](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx46-setup-bundle-x86-2015-1.0.112.0.exe)
 
-- [Precompiled Binaries](https://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx45-binary-bundle-Win32-2012-1.0.112.0.zip)
+- [Precompiled Binaries - 2012](https://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx45-binary-bundle-Win32-2012-1.0.112.0.zip)
+- [Precompiled Binaries - 2015](https://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx46-binary-bundle-Win32-2015-1.0.112.0.zip)
 
 
 ## 引用
