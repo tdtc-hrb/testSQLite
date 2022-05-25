@@ -56,6 +56,7 @@ C:\Program Files (x86)\System.Data.SQLite\2015\GAC
 ### vs17/19/22 
 Project -> Add Reference
 Browse: 选择Sqlite file
+![manual add GAC](https://github.com/tdtc-hrb/cnblogs/raw/master/images/manaddgac.png)
 
 ### vs08/10/12/13/15
 References -> Add Reference
