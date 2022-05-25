@@ -11,6 +11,13 @@ windows XP 只能支持到.net 4.0.3.
 
 
 # 工程设置
+  使用VS2017、VS2019、VS2022新建工程， 需要设置Target framework: (4.0~4.6)
+```
+Project -> Properties
+```
+Application -> Target framework
+
+![dotnet version - target](https://github.com/tdtc-hrb/cnblogs/raw/master/images/targetversion.png)
 
 ## 组件
 - [For Vs 2010](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx40-setup-bundle-x86-2010-1.0.112.0.exe)
@@ -25,17 +32,44 @@ windows XP 只能支持到.net 4.0.3.
 
 
 ## 引用
-> References -> Add Reference
 
-![vs2012 ui](https://gitee.com/xiaobin80/cnblogs/raw/master/images/20200402114539433.png)
+### SQLite file
+> System.Data.SQLite.dll
+
+- .net 4.0
+```
+C:\Program Files (x86)\System.Data.SQLite\2010\GAC
+```
+- .net 4.5
+```
+C:\Program Files (x86)\System.Data.SQLite\2012\GAC
+```
+- .net 4.5.1
+```
+C:\Program Files (x86)\System.Data.SQLite\2013\GAC
+```
+- .net 4.6
+```
+C:\Program Files (x86)\System.Data.SQLite\2015\GAC
+```
+
+### vs17/19/22 
+Project -> Add Reference
+Browse: 选择Sqlite file
+
+### vs08/10/12/13/15
+References -> Add Reference
+
+![vs2012 ui](https://github.com/tdtc-hrb/cnblogs/raw/master/images/20200402114539433.png)
+
 
 
 选择“System.Data.SQLite Core”
-![vs2012 ui](https://gitee.com/xiaobin80/cnblogs/raw/master/images/20200402114730227.png)
+![vs2012 ui](https://github.com/tdtc-hrb/cnblogs/raw/master/images/20200402114730227.png)
 
 
 ## 完整的窗体
-![program ui](https://gitee.com/xiaobin80/cnblogs/raw/master/images/20200327103150877.png)
+![program ui](https://github.com/tdtc-hrb/cnblogs/raw/master/images/20200327103150877.png)
 
 # Deploy
 1. 新建tdtc_scale.db    
