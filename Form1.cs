@@ -68,6 +68,7 @@ namespace test_sqlite_net
             SQLiteConnection cnn = new SQLiteConnection(strDataSource);
             cnn.Open();
             cnn.ChangePassword("20130321");
+            this.Text = "Connectionning SQLite DB...";
             cnn.Close();
         }
 
@@ -96,6 +97,8 @@ namespace test_sqlite_net
 
             table = new DataTable(tblName);
             dataAdapter.Fill(table);
+            
+            this.Text = "Show SQLite Table...";
 
             dataGridView1.DataSource = table;
         }
