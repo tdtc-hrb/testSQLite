@@ -20,11 +20,13 @@ Application -> Target framework
 ![dotnet version - target](https://github.com/tdtc-hrb/cnblogs/raw/master/images/targetversion.png)
 
 ## 组件
+- [For Vs 2008](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx35-setup-bundle-x86-2008-1.0.112.0.exe)
 - [For Vs 2010](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx40-setup-bundle-x86-2010-1.0.112.0.exe)
 - [For Vs 2012](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx45-setup-bundle-x86-2012-1.0.112.0.exe)
 - [For Vs 2013](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx451-setup-bundle-x86-2013-1.0.112.0.exe)
 - [For Vs 2015](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx46-setup-bundle-x86-2015-1.0.112.0.exe)
 
+- [Precompiled Binaries - 2008](https://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx35-binary-bundle-Win32-2008-1.0.112.0.zip)
 - [Precompiled Binaries - 2010](https://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx40-binary-bundle-Win32-2010-1.0.112.0.zip)
 - [Precompiled Binaries - 2012](https://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx45-binary-bundle-Win32-2012-1.0.112.0.zip)
 - [Precompiled Binaries - 2013](https://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx451-binary-bundle-Win32-2013-1.0.112.0.zip)
@@ -36,6 +38,10 @@ Application -> Target framework
 ### SQLite file
 > System.Data.SQLite.dll
 
+- .net 3.5
+```
+C:\Program Files (x86)\System.Data.SQLite\2008\GAC
+```
 - .net 4.0
 ```
 C:\Program Files (x86)\System.Data.SQLite\2010\GAC
