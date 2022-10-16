@@ -34,6 +34,20 @@ Application -> Target framework
 
 
 ## 引用
+[Runtime](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist):
+- Visual C++ 2008 SP1    
+[x64](https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe)    
+[x86](https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe)
+- Visual C++ 2010 SP1    
+[x64](https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe)    
+[x86](https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe)
+- Visual C++ 2012 Update 4    
+[x64](https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe)    
+[x86](https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe)
+- Visual C++ 2013 Update 2    
+[x64](https://aka.ms/highdpimfc2013x64enu)    
+[x86](https://aka.ms/highdpimfc2013x86enu)
+- [Visual C++ 2015 Update 3](https://www.microsoft.com/en-us/download/details.aspx?id=53587)
 
 ### SQLite file
 > System.Data.SQLite.dll
