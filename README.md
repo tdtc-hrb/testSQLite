@@ -24,30 +24,6 @@ Application -> Target framework
 - [For Vs 2013](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx451-setup-bundle-x86-2013-1.0.112.0.exe)
 - [For Vs 2015](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx46-setup-bundle-x86-2015-1.0.112.0.exe)
 
-### SQLite file
-> System.Data.SQLite.dll
-
-- .net 3.5
-```
-C:\Program Files (x86)\System.Data.SQLite\2008\GAC
-```
-- .net 4.0
-```
-C:\Program Files (x86)\System.Data.SQLite\2010\GAC
-```
-- .net 4.5
-```
-C:\Program Files (x86)\System.Data.SQLite\2012\GAC
-```
-- .net 4.5.1
-```
-C:\Program Files (x86)\System.Data.SQLite\2013\GAC
-```
-- .net 4.6
-```
-C:\Program Files (x86)\System.Data.SQLite\2015\GAC
-```
-
 ### vs17/19/22
 Project -> Add Reference
 Browse: 选择Sqlite file
