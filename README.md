@@ -24,7 +24,7 @@ Application -> Target framework
 - [For Vs 2013](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx451-setup-bundle-x86-2013-1.0.112.0.exe)
 - [For Vs 2015](http://system.data.sqlite.org/blobs/1.0.112.0/sqlite-netFx46-setup-bundle-x86-2015-1.0.112.0.exe)
 
-### vs17/19/22
+### vs17/19
 Project -> Add Reference
 Browse: 选择Sqlite file
 ![manual add GAC](https://github.com/tdtc-hrb/cnblogs/raw/main/images/manaddgac.png)
@@ -69,7 +69,7 @@ References -> Add Reference
 4. 输入insert语句，并点击exec    
 5. 输入select语句，并点击search
 
-完整的窗体
+完整的窗体    
 ![program ui](https://github.com/tdtc-hrb/cnblogs/raw/main/images/20200327103150877.png)
 
 
