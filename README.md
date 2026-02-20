@@ -7,13 +7,13 @@
 
 
 # 工程设置
-  使用VS2017、VS2019、VS2022新建工程， 需要设置Target framework: (4.0~4.6)
+  使用VS2017、VS2019新建工程， 需要设置Target framework: (4.0~4.6)
 ```
 Project -> Properties
 ```
 Application -> Target framework
 
-![dotnet version - target](https://github.com/tdtc-hrb/cnblogs/raw/master/images/targetversion.png)
+![dotnet version - target](https://github.com/tdtc-hrb/cnblogs/raw/main/images/targetversion.png)
 
 > Windows XP 只能支持到.net 4.0.3.
 
@@ -27,16 +27,16 @@ Application -> Target framework
 ### vs17/19/22
 Project -> Add Reference
 Browse: 选择Sqlite file
-![manual add GAC](https://github.com/tdtc-hrb/cnblogs/raw/master/images/manaddgac.png)
+![manual add GAC](https://github.com/tdtc-hrb/cnblogs/raw/main/images/manaddgac.png)
 
 ### vs08/10/12/13/15
 References -> Add Reference
 
-![vs2012 ui](https://github.com/tdtc-hrb/cnblogs/raw/master/images/20200402114539433.png)
+![vs2012 ui](https://github.com/tdtc-hrb/cnblogs/raw/main/images/20200402114539433.png)
 
 
 选择“System.Data.SQLite Core”
-![vs2012 ui](https://github.com/tdtc-hrb/cnblogs/raw/master/images/20200402114730227.png)
+![vs2012 ui](https://github.com/tdtc-hrb/cnblogs/raw/main/images/20200402114730227.png)
 
 
 # Deploy
@@ -70,7 +70,7 @@ References -> Add Reference
 5. 输入select语句，并点击search
 
 完整的窗体
-![program ui](https://github.com/tdtc-hrb/cnblogs/raw/master/images/20200327103150877.png)
+![program ui](https://github.com/tdtc-hrb/cnblogs/raw/main/images/20200327103150877.png)
 
 
 # 参考文档
